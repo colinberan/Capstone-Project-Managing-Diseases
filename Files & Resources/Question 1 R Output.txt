@@ -1,0 +1,76 @@
+
+Call:
+lm(formula = overall_immunization ~ poverty_under_18, data = StudentData1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.13422 -0.01985  0.01363  0.03826  0.07654 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.88489    0.02408  36.753   <2e-16 ***
+poverty_under_18  0.13211    0.10260   1.288    0.203    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05379 on 56 degrees of freedom
+Multiple R-squared:  0.02876,	Adjusted R-squared:  0.01141 
+F-statistic: 1.658 on 1 and 56 DF,  p-value: 0.2032
+
+
+Call:
+lm(formula = overall_immunization ~ poverty_all, data = StudentData1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.13105 -0.02306  0.01347  0.03904  0.08404 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.87896    0.02647  33.204   <2e-16 ***
+poverty_all  0.21893    0.15707   1.394    0.169    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05365 on 56 degrees of freedom
+Multiple R-squared:  0.03353,	Adjusted R-squared:  0.01627 
+F-statistic: 1.943 on 1 and 56 DF,  p-value: 0.1689
+
+
+Call:
+lm(formula = overall_immunization ~ college_education)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.13450 -0.02297  0.01499  0.03717  0.08758 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        0.93237    0.01788  52.159   <2e-16 ***
+college_education -0.06652    0.06116  -1.088    0.281    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05401 on 56 degrees of freedom
+Multiple R-squared:  0.02069,	Adjusted R-squared:  0.0032 
+F-statistic: 1.183 on 1 and 56 DF,  p-value: 0.2814
+
+
+Call:
+lm(formula = overall_immunization ~ pop_2010)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.138422 -0.017863  0.005441  0.040989  0.088513 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 9.115e-01  7.819e-03 116.571   <2e-16 ***
+pop_2010    4.737e-09  5.062e-09   0.936    0.353    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05416 on 56 degrees of freedom
+Multiple R-squared:  0.0154,	Adjusted R-squared:  -0.002184 
+F-statistic: 0.8758 on 1 and 56 DF,  p-value: 0.3534
+
